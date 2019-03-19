@@ -2,6 +2,7 @@ package br.pucrs.ep.es;
 
 public class ContaMagica extends Conta {
 
+
     public ContaMagica(Cliente cliente) {
         super(cliente);
     }

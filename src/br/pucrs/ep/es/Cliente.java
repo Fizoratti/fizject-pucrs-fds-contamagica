@@ -1,8 +1,8 @@
 package br.pucrs.ep.es;
 
 public class Cliente {
-    public String nome;
-    public int idade;
+    private String nome;
+    private int idade;
 
     public Cliente(String nome) {
         setNome(nome);

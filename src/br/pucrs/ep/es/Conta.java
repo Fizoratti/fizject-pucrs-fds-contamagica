@@ -1,8 +1,8 @@
 package br.pucrs.ep.es;
 
 public class Conta {
-    public Cliente cliente;
-    public Conta(Cliente cliente) {
+    private Cliente cliente;
+    private Conta(Cliente cliente) {
         setCliente(cliente);
     }
 
