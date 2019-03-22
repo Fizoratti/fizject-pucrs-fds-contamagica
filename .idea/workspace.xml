@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ada8847d-8f46-40de-a00e-0a50c369e07c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/br/pucrs/ep/es/Atendimento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/pucrs/ep/es/Banco.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/pucrs/ep/es/Caixa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/pucrs/ep/es/Disponibilidade.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/pucrs/ep/es/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/pucrs/ep/es/Conta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/pucrs/ep/es/ContaMagica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/pucrs/ep/es/ContaMagica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/pucrs/ep/es/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/pucrs/ep/es/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,11 +20,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/br/pucrs/ep/es/Main.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret column="14" selection-start-column="14" selection-end-column="14" />
+                <state relative-caret-position="177">
+                  <caret line="13" column="54" lean-forward="true" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
                 </state>
               </provider>
             </entry>
@@ -30,21 +33,39 @@
             <entry file="file://$PROJECT_DIR$/src/br/pucrs/ep/es/ContaMagica.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="108">
-                  <caret line="6" column="29" lean-forward="true" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+                  <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/br/pucrs/ep/es/Caixa.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="504">
+                  <caret line="28" column="45" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
+                  <folding>
+                    <element signature="e#111#112#0" expanded="true" />
+                    <element signature="e#137#138#0" expanded="true" />
+                    <element signature="e#247#248#0" expanded="true" />
+                    <element signature="e#285#286#0" expanded="true" />
+                    <element signature="e#356#357#0" expanded="true" />
+                    <element signature="e#410#411#0" expanded="true" />
+                    <element signature="e#369#370#0" expanded="true" />
+                    <element signature="e#426#427#0" expanded="true" />
+                    <element signature="e#457#458#0" expanded="true" />
+                    <element signature="e#514#515#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/br/pucrs/ep/es/Categoria.java">
+            <entry file="file://$PROJECT_DIR$/src/br/pucrs/ep/es/Cliente.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="180">
-                  <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+                  <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
                   <folding>
-                    <element signature="e#140#141#0" expanded="true" />
-                    <element signature="e#169#170#0" expanded="true" />
-                    <element signature="e#174#175#0" expanded="true" />
-                    <element signature="e#202#203#0" expanded="true" />
+                    <element signature="method#Cliente#1;class#Cliente#0" />
                   </folding>
                 </state>
               </provider>
@@ -55,15 +76,12 @@
       <split-second>
         <leaf>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/br/pucrs/ep/es/Conta.java">
+            <entry file="file://$PROJECT_DIR$/src/br/pucrs/ep/es/Banco.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="252">
-                  <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+                <state relative-caret-position="378">
+                  <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
                   <folding>
-                    <element signature="e#118#119#0" expanded="true" />
-                    <element signature="e#153#154#0" expanded="true" />
-                    <element signature="e#275#276#0" expanded="true" />
-                    <element signature="e#320#321#0" expanded="true" />
+                    <element signature="imports" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -76,8 +94,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -91,6 +109,11 @@
         <option value="$PROJECT_DIR$/src/br/pucrs/ep/es/Conta.java" />
         <option value="$PROJECT_DIR$/src/br/pucrs/ep/es/ContaMagica.java" />
         <option value="$PROJECT_DIR$/src/br/pucrs/ep/es/Categoria.java" />
+        <option value="$PROJECT_DIR$/src/br/pucrs/ep/es/Main.java" />
+        <option value="$PROJECT_DIR$/src/br/pucrs/ep/es/Disponibilidade.java" />
+        <option value="$PROJECT_DIR$/src/br/pucrs/ep/es/Banco.java" />
+        <option value="$PROJECT_DIR$/src/br/pucrs/ep/es/Atendimento.java" />
+        <option value="$PROJECT_DIR$/src/br/pucrs/ep/es/Caixa.java" />
       </list>
     </option>
   </component>
@@ -106,23 +129,21 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="ContaMagica" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ContaMagica" type="462c0819:PsiDirectoryNode" />
+              <item name="fizject-pucrs-fds-contamagica" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fizject-pucrs-fds-contamagica" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ContaMagica" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ContaMagica" type="462c0819:PsiDirectoryNode" />
+              <item name="fizject-pucrs-fds-contamagica" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fizject-pucrs-fds-contamagica" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ContaMagica" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ContaMagica" type="462c0819:PsiDirectoryNode" />
+              <item name="fizject-pucrs-fds-contamagica" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fizject-pucrs-fds-contamagica" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="es" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -130,12 +151,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553039243173" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553212955274" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -160,6 +183,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -172,11 +200,12 @@
       <option name="presentableId" value="Default" />
       <updated>1553035970019</updated>
       <workItem from="1553035973177" duration="3354000" />
+      <workItem from="1553210588966" duration="2363000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3354000" />
+    <option name="totallyTimeSpent" value="5717000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
@@ -187,20 +216,21 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.1482808" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.1504298" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" order="0" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.32974428" />
-      <window_info anchor="bottom" id="Database Changes" order="2" />
-      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Message" order="5" />
-      <window_info anchor="bottom" id="Find" order="6" />
-      <window_info anchor="bottom" id="Run" order="7" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="bottom" id="Messages" order="0" />
+      <window_info anchor="bottom" id="Version Control" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="2" weight="0.32974428" />
+      <window_info anchor="bottom" id="Database Changes" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Find" order="7" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.32974428" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" />
       <window_info anchor="right" id="Theme Preview" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Palette&#9;" order="2" />
@@ -218,51 +248,85 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/br/pucrs/ep/es/Conta.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
+        <state relative-caret-position="180">
           <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#118#119#0" expanded="true" />
-            <element signature="e#153#154#0" expanded="true" />
-            <element signature="e#275#276#0" expanded="true" />
-            <element signature="e#320#321#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/pucrs/ep/es/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="13" column="54" lean-forward="true" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/pucrs/ep/es/Disponibilidade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/br/pucrs/ep/es/Categoria.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-          <folding>
-            <element signature="e#140#141#0" expanded="true" />
-            <element signature="e#169#170#0" expanded="true" />
-            <element signature="e#174#175#0" expanded="true" />
-            <element signature="e#202#203#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="234">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/br/pucrs/ep/es/ContaMagica.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
-          <caret line="6" column="29" lean-forward="true" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/pucrs/ep/es/Banco.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/br/pucrs/ep/es/Cliente.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="180">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
           <folding>
             <element signature="method#Cliente#1;class#Cliente#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/pucrs/ep/es/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/br/pucrs/ep/es/Atendimento.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="14" selection-start-column="14" selection-end-column="14" />
+        <state relative-caret-position="324">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/pucrs/ep/es/Caixa.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="28" column="45" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
+          <folding>
+            <element signature="e#111#112#0" expanded="true" />
+            <element signature="e#137#138#0" expanded="true" />
+            <element signature="e#247#248#0" expanded="true" />
+            <element signature="e#285#286#0" expanded="true" />
+            <element signature="e#356#357#0" expanded="true" />
+            <element signature="e#410#411#0" expanded="true" />
+            <element signature="e#369#370#0" expanded="true" />
+            <element signature="e#426#427#0" expanded="true" />
+            <element signature="e#457#458#0" expanded="true" />
+            <element signature="e#514#515#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
