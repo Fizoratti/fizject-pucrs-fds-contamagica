@@ -1,5 +1,9 @@
 package br.pucrs.ep.es;
 
+import br.pucrs.ep.es.model.Categoria;
+import br.pucrs.ep.es.model.Cliente;
+import br.pucrs.ep.es.model.Conta;
+
 import java.math.BigDecimal;
 
 public class ContaMagica extends Conta {

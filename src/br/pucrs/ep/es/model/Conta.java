@@ -1,4 +1,6 @@
-package br.pucrs.ep.es;
+package br.pucrs.ep.es.model;
+
+import br.pucrs.ep.es.model.Cliente;
 
 public class Conta {
     private Cliente cliente;

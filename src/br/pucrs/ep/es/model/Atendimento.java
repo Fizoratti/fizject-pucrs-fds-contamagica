@@ -1,4 +1,6 @@
-package br.pucrs.ep.es;
+package br.pucrs.ep.es.model;
+
+import br.pucrs.ep.es.model.Cliente;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

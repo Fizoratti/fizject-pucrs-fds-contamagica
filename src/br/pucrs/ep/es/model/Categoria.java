@@ -1,4 +1,4 @@
-package br.pucrs.ep.es;
+package br.pucrs.ep.es.model;
 
 public enum Categoria {
     SILVER(1),

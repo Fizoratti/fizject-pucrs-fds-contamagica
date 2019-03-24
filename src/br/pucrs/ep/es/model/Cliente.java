@@ -1,4 +1,4 @@
-package br.pucrs.ep.es;
+package br.pucrs.ep.es.model;
 
 public class Cliente {
     private String nome;
@@ -23,5 +23,10 @@ public class Cliente {
     }
     public void setIdade(int idade) {
         this.idade = idade;
+    }
+
+    @Override
+    public String toString() {
+        return "[" + nome + ", " + idade + ']';
     }
 }
